@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" width="1000" height="200" role="img" aria-label="Erick Kauan">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#010a04"/>
+      <stop offset="1" stop-color="#03170a"/>
+    </linearGradient>
+    <clipPath id="clip"><rect width="1000" height="200" rx="12"/></clipPath>
+    <text id="a" class="r">
+      <tspan x="0" dy="0" fill-opacity=".08">1</tspan>
+      <tspan x="0" dy="16" fill-opacity=".15">0</tspan>
+      <tspan x="0" dy="16" fill-opacity=".25">1</tspan>
+      <tspan x="0" dy="16" fill-opacity=".35">1</tspan>
+      <tspan x="0" dy="16" fill-opacity=".5">0</tspan>
+      <tspan x="0" dy="16" fill-opacity=".65">1</tspan>
+      <tspan x="0" dy="16" fill-opacity=".8">0</tspan>
+      <tspan x="0" dy="16" fill-opacity="1">1</tspan>
+    </text>
+    <text id="b" class="r">
+      <tspan x="0" dy="0" fill-opacity=".08">0</tspan>
+      <tspan x="0" dy="16" fill-opacity=".15">1</tspan>
+      <tspan x="0" dy="16" fill-opacity=".25">0</tspan>
+      <tspan x="0" dy="16" fill-opacity=".35">0</tspan>
+      <tspan x="0" dy="16" fill-opacity=".5">1</tspan>
+      <tspan x="0" dy="16" fill-opacity=".65">1</tspan>
+      <tspan x="0" dy="16" fill-opacity=".8">0</tspan>
+      <tspan x="0" dy="16" fill-opacity="1">1</tspan>
+    </text>
+  </defs>
+  <style>
+    .r { font-family: 'Fira Code', Consolas, 'Courier New', monospace; font-size: 14px; fill: #00ff41; }
+    .f { animation: fall 5s linear infinite; }
+    .name { font-family: 'Fira Code', Consolas, 'Courier New', monospace; font-size: 64px; font-weight: 700; letter-spacing: 6px; fill: #00ff41; animation: flicker 5s infinite; }
+    @keyframes fall { from { transform: translateY(-140px); } to { transform: translateY(220px); } }
+    @keyframes flicker {
+      0%, 91%, 100% { opacity: 1; }
+      92% { opacity: 0.35; }
+      93% { opacity: 1; }
+      95% { opacity: 0.6; }
+      96% { opacity: 1; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .f, .name { animation: none; }
+    }
+  </style>
+
+  <g clip-path="url(#clip)">
+    <rect width="1000" height="200" fill="url(#bg)"/>
+
+    <use href="#a" class="f" x="30"  style="animation-duration:4.2s;animation-delay:-1s"/>
+    <use href="#b" class="f" x="100" style="animation-duration:5.6s;animation-delay:-3s"/>
+    <use href="#a" class="f" x="170" style="animation-duration:3.8s;animation-delay:-2s"/>
+    <use href="#b" class="f" x="240" style="animation-duration:6s;animation-delay:-4s"/>
+    <use href="#a" class="f" x="310" style="animation-duration:4.8s;animation-delay:-0.5s"/>
+    <use href="#b" class="f" x="380" style="animation-duration:5.2s;animation-delay:-2.5s"/>
+    <use href="#a" class="f" x="450" style="animation-duration:3.6s;animation-delay:-1.5s"/>
+    <use href="#b" class="f" x="520" style="animation-duration:5.8s;animation-delay:-3.5s"/>
+    <use href="#a" class="f" x="590" style="animation-duration:4.4s;animation-delay:-0.8s"/>
+    <use href="#b" class="f" x="660" style="animation-duration:6.2s;animation-delay:-4.5s"/>
+    <use href="#a" class="f" x="730" style="animation-duration:3.9s;animation-delay:-2.2s"/>
+    <use href="#b" class="f" x="800" style="animation-duration:5s;animation-delay:-1.2s"/>
+    <use href="#a" class="f" x="870" style="animation-duration:4.6s;animation-delay:-3.2s"/>
+    <use href="#b" class="f" x="940" style="animation-duration:5.4s;animation-delay:-0.3s"/>
+
+    <rect x="0" y="62" width="1000" height="76" fill="#010a04" fill-opacity="0.6"/>
+    <text class="name" x="500" y="116" text-anchor="middle">ERICK KAUAN</text>
+  </g>
+
+  <rect x="1" y="1" width="998" height="198" rx="12" fill="none" stroke="#00a82d" stroke-width="2"/>
+</svg>
