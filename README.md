@@ -1,6 +1,6 @@
 <div align="center">
 
-![Banner](https://capsule-render.vercel.app/api?type=rect&color=0:021a0b,100:00a82d&height=200&section=header&text=ERICK%20KAUAN&fontSize=60&fontColor=00ff41&fontAlignY=50&textBg=false)
+<img src="banner.svg" alt="Erick Kauan" width="100%">
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1200&color=00FF41&center=true&vCenter=true&width=435&lines=SYSTEM+BOOTING...;LOADING+MODULES...;STATUS%3A+ONLINE)](https://github.com/erickregispessoal)
 
