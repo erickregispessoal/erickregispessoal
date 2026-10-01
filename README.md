@@ -10,20 +10,9 @@
 
 ## ERICK CORE
 
-```text
-ERICK SYSTEM v1.0
-Initializing system...
-[##########] 100%
-
-[OK] Student detected
-[OK] Creativity enabled
-[OK] Web engine activated
-[OK] AI-900 module loaded
-[OK] Projects loaded
-
-STATUS: ONLINE
-```
-
+<div align="center">
+  <img src="boot.svg" alt="Sistema Erick: status online" width="800">
+</div>
 ## SOBRE
 
 Estudante do ensino médio começando cedo em tecnologia. Concluí o curso AI-900 (Microsoft Azure AI Fundamentals) e aplico o que aprendo em sites e ferramentas web.
